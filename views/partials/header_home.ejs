@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FARMAZON 🌾</title>
+    <link rel="icon" href="img\Farmazon_logo1.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+    <script src="https://kit.fontawesome.com/9bb8901042.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="assets/img/icon.png" />
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+
+    <style>
+
+        body {
+            background-color: beige;
+        }
+
+        .parallax {
+            min-height: 550px;
+            background: transparent;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .heading {
+            z-index: 2;
+            position: relative;
+            margin-left: 40px;
+            display: flex;
+            flex: 0.5;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .items {
+            flex: 0.5;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.8;
+            top: 163px;
+            z-index: 2;
+            position: relative;
+        }
+
+        .circle>img {
+            width: 100px;
+            border: 4px solid white;
+            border-radius: 70px;
+            margin: 0px 4px;
+            cursor: pointer;
+        }
+
+        /* features*/
+        #features {
+            padding: 9%;
+            position: relative;
+        }
+
+        .feature-box {
+            text-align: center;
+            padding: 4%;
+        }
+
+        .icon {
+            color: Black;
+            margin-bottom: 1rem;
+        }
+
+        div>.fas {
+            font-size: 4em;
+        }
+
+        .icon:hover {
+            color: red;
+        }
+
+        .middle {
+            min-height: 400px;
+            background-color: #8fc549;
+            /* background-color: blue; */
+            display: flex;
+        }
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            flex: 0.3;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left>p {
+            color: rgb(255, 240, 24);
+        }
+
+        .left>h2 {
+            color: #fff;
+        }
+
+        .right {
+            margin-top: 50px;
+            flex: 0.7;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .crops {
+            width: 40px;
+            margin: 6px;
+        }
+
+        .fas {
+            font-size: 1.5em;
+            margin: 8px;
+        }
+
+        .box {
+            margin: 40px 4px;
+        }
+
+        .box>p {
+            color: #ffff;
+        }
+
+        .container {
+            height: 100vh;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .col-md-5 {
+            margin-top: 40px;
+        }
+
+        .col-md-6 {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #e9e9e9;">
+
+        <a class="navbar-brand" href="/"><img class="navbar-brand-img logo" src="img\Farmazon_logo1.png" /></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav">
+                <li id="home" class="nav-item"><a class="nav-link active" href="/">HOME</a></li>
+
+                <li id="about" class="nav-item"><a href="about" class="nav-link active">ABOUT US</a></li>
+
+                <li id="contact" class="nav-item"><a class="nav-link active" href="contact">CONTACT US</a></li>
+
+                <li id="login" class="nav-item"><a class="nav-link active" href="login" role="button">LOGIN</a></li>
+
+                <li id="register" class="nav-item"><a class="nav-link active" href="register" role="button">JOIN</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+    </nav>
